@@ -1,24 +1,12 @@
-# README
+# README de Movie-Searcher
+___
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Comme d'hab, je n'arrive pas a faire fonctionner une app sur Heroku..
+Pourtant je suis les instructions mais rien a faire...
+Malgres tout ca marche en local sans soucis.
+Doute ou le probleme viendrait de mon Heroku, je laisse le lien de l'app
+pour que vous puissiez verifier.
+Merci
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://movie-searcher-rob.herokuapp.com/
