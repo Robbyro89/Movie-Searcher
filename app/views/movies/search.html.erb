@@ -3,24 +3,24 @@
   <p>Trouvez le film qui vous plait</p>
 
 	 <%= form_tag(movies_search_path, method: "get") do |f| %>
-
-	      <%= label_tag :Search %>
-	      <%= text_field_tag :usersearch%>
-
-	      <%= submit_tag :Submit, :class =>"w3-btn w3-white"%>
+	  <%= label_tag :Recherche %>
+	  <%= text_field_tag :usersearch%>
+	  <%= submit_tag :"Lancer la recherche", :class =>"btn btn-primary"%>
 	<% end %>
 
 </section>
 
 
-<section id="results">
+<section>
 
 <% unless @my_results == nil %>
 
   <% @my_results.each do |result| %>
+    <div>
      <h3><%= result["title"] %></h3>
-     <p> released on <%= result["release_date"] %></p>
-     <img src = "http://image.tmdb.org/t/p/w500/<%= result["poster_path"]%>">
+     <p> Sortie le <%= result["release_date"] %></p>
+     <img src = "http://image.tmdb.org/t/p/w500/<%= result["poster_path"] %>">
+   </div>
   <% end %>
  <% end %>
 
